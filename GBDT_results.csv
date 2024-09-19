@@ -1,0 +1,6 @@
+Fingerprint,Accuracy,Precision,Recall,F1 Score,AUC-ROC,MCC,Best Params
+MACCS,0.87,0.9027777777777778,0.9154929577464789,0.9090909090909091,0.9252064108790675,0.6812649236000077,"{'learning_rate': 0.1, 'max_depth': 4, 'min_samples_leaf': 4, 'min_samples_split': 5, 'n_estimators': 300}"
+ECFP4,0.92,0.9565217391304348,0.9295774647887324,0.9428571428571428,0.9747450218552696,0.8105330870256189,"{'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 300}"
+PubchemFP,0.88,0.9402985074626866,0.8873239436619719,0.9130434782608696,0.9616318601262749,0.7231749620378631,"{'learning_rate': 0.1, 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}"
+RDKitFP,0.84,0.9365079365079365,0.8309859154929577,0.8805970149253731,0.9159786304031083,0.6513653663638459,"{'learning_rate': 0.2, 'max_depth': 5, 'min_samples_leaf': 4, 'min_samples_split': 2, 'n_estimators': 100}"
+Descriptor,0.8631578947368421,0.9090909090909091,0.8955223880597015,0.9022556390977443,0.9109808102345416,0.6744402335048613,"{'learning_rate': 0.2, 'max_depth': 5, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 200}"
